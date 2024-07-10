@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@500;600&display=swap");
+
+p {
+    color: darkgoldenrod;
+    margin: 12;
+  padding: 12;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+}
+
+h1 {
+    color: rgb(0, 86, 156);
+    margin-top: 15px;
+    font-family: "Lato", sans-serif;
+  }
+
+  a:hover{
+       color: rgb(82, 143, 255);
+     }
+  a{
+
+       font-family: "Lato", sans-serif;
+       font-size: 30px;
+       color: rgb(0, 47, 255);
+       text-decoration: overline underline ;
+  }
+
+  ul{
+    display: block;
+    padding: 5px;
+    border: 10px black ;
+    margin: 15px;
+  }
+
+  table{
+    text-align: left;
+    color: black;
+    text-decoration: double dotted;
+  }
+  input{
+    color: blueviolet;
+    font-family: "lato", sans-serif;
+    font-size: larger;
+  }
+   ul{
+    display: inline-table ;
+    flex-wrap: wrap;
+  }
+  div {
+    color: blueviolet;
+  }
