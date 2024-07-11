@@ -1,158 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@500;600&display=swap");
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-body{
-    font-family: "Poppins", sans-serif;
-}
-.header{
-    display: flex;
-    align-items: center;
-    height: 70vh;
-    min-height: 700px;
+p {
+    color: darkgoldenrod;
+    margin: 12;
+  padding: 12;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+h1 {
+    color: rgb(0, 86, 156);
+    margin-top: 15px;
+    font-family: "Lato", sans-serif;
+  }
 
-.menu{
-    position: absolute;
-    top: 10px;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+  a:hover{
+       color: rgb(82, 143, 255);
+     }
+  a{
 
-.logo{
-    font-weight: 800;
-    font-size: 25px;
-    color: #fc697a;
-    text-transform: uppercase;
-}
+       font-family: "Lato", sans-serif;
+       font-size: 30px;
+       color: rgb(0, 47, 255);
+       text-decoration: overline underline ;
+  }
 
-.menu .navbar ul li {
-    position: relative;
-    float: left;
-}
-
-.menu .navbar ul li a {
-    font-size: 17px;
-    font-weight: 600;
-    padding: 20px;
-    color: #656875;
+  ul{
     display: block;
-    text-transform: uppercase;
-}
+    padding: 5px;
+    border: 10px black ;
+    margin: 15px;
+  }
 
-.menu .navbar ul li a:hover{
-    color: #12114D;
-}
-
-#menu{
-    display: none;
-}
-
-.menu-icono{
-    width: 25px;
-}
-
-.menu label{
-    cursor: pointer;
-    display: none;
-}
-
-.header-content{
-    margin-top: 100px;
-    display: flex;
-    padding: 50px;
-    background-color: #F5F9FC;
-    border-radius: 25px;
-}
-
-.header-txt{
-    width: 50%;
-}
-
-.header-txt h1{
-    font-size: 50px;
-    line-height: 70px;
-    color: #12114D;
-    text-transform: capitalize;
-    font-weight: 800;
-    margin-bottom: 25px;
-}
-
-.header-txt p{
-    font-size: 16px;
-    color: #656875;
-    margin-bottom: 35px;
-}
-
-.btn-1{
-    display: inline-block;
-    padding: 13px 25px;
-    background-color: #fc697a;
-    font-size: 17px;
-    color: #FFFF;
-    border-radius: 15px;
-    text-transform: capitalize;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-.btn-1:hover{
-    background-color: #E95F6F;
-}
-
-
-.header-img{
-    width: 50%;
-    text-align: right;
-}
-
-.header-img img{
-    width: 400px;
-}
-
-.general{
-    padding: 100px 0;
-    display: flex;
-}
-
-.general-1{
-    width: 70%;
-    display: flex;
-}
-
-.general-card{
-    padding: 40px;
-    text-align: center;
-    margin: 0 10px;
-    border-radius: 25px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-.general-card img{
-    width: 30px;
-    margin-bottom: 25px;
-}
-
-.general-card h3{
-    font-size: 18px;
-    color: #12114D;
-    margin-bottom: 15px;
-}
-
-.general-card p{
-    font-size: 16px;
-    color: #656875;
-}
-
+  table{
+    text-align: left;
+    color: black;
+    text-decoration: double dotted;
+  }
+  input{
+    color: blueviolet;
+    font-family: "lato", sans-serif;
+    font-size: larger;
+  }
+   ul{
+    display: inline-table ;
+    flex-wrap: wrap;
+  }
